@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "874543144457",
+    "firebase_url": "https://covid-tracer-7f8eb.firebaseio.com",
+    "project_id": "covid-tracer-7f8eb",
+    "storage_bucket": "covid-tracer-7f8eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874543144457:android:0cc2c7a365b7c14e3822d8",
+        "android_client_info": {
+          "package_name": "com.example.coronanearbycontact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874543144457-0nnvcjg61mfsqlt79i3j6co4da2ko5ff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRqY6J2UH0Tbx3K2lXHoqt3_KmcpiaoSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874543144457-0nnvcjg61mfsqlt79i3j6co4da2ko5ff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

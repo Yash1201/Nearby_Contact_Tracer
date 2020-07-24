@@ -148,6 +148,7 @@ class _NearbyInterfaceState extends State<NearbyInterface> {
         leading: Icon(
           Icons.menu,
           color: Colors.deepPurple[800],
+
         ),
         centerTitle: true,
         title: Text(
@@ -251,7 +252,7 @@ class _NearbyInterfaceState extends State<NearbyInterface> {
               child: ListView.builder(
                 itemBuilder: (context, index) {
                   return ContactCard(
-                    imagePath: 'images/profile1.jpg',
+                    imagePath: 'images/profile.png',
                     email: contactTraces[index],
                     infection: 'Not-Infected',
                     contactUsername: contactTraces[index],
