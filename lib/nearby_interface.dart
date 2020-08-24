@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:location/location.dart';
 import 'package:nearby_connections/nearby_connections.dart';
+import 'package:share/share.dart';
 
 import 'components/contact_card.dart';
 import 'constants.dart';
@@ -159,7 +160,14 @@ class _NearbyInterfaceState extends State<NearbyInterface> {
             fontSize: 28.0,
           ),
         ),
+        actions: <Widget>[
+          IconButton(icon: Icon(Icons.share),color: Colors.deepPurple[800], onPressed: () {
+            Share.share('check out *Corona Nearby Contact Tracing App* at https://drive.google.com/drive/folders/1J_anFvyhfzLBGbvBkoYuZPTK5HIrcwkA?usp=sharing');
+          }),
+          SizedBox(width: 15,),
+        ],
         backgroundColor: Colors.white,
+
       ),
       body: Column(
         children: <Widget>[
