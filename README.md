@@ -4,7 +4,7 @@ When you come in contact with corona positive person than their detail and his/h
 
 
 
-Download the `apk-release.apk` to try out Remove Chinese App
+Download the `apk-release.apk` to try out Corona Nearby Contact Tracing App in Flutter
 <br>
 <br>
 <a href="https://drive.google.com/drive/folders/1J_anFvyhfzLBGbvBkoYuZPTK5HIrcwkA?usp=sharing"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
